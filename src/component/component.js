@@ -98,7 +98,7 @@ export default function States() {
 
       {selectedCountry && selectedState && selectedCity && (
   <h1>
-    You have selected {selectedCity},{selectedState},{selectedCountry}
+    You selected {selectedCity},{selectedState},{selectedCountry}
   </h1>
 )}
 
