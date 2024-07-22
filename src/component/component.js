@@ -97,10 +97,11 @@ export default function States() {
       </select>
 
       {selectedCountry && selectedState && selectedCity && (
-        <h1>
-          You have selected  {selectedCity},{selectedState},{selectedCountry}
-        </h1>
-      )}
+  <h1>
+    You have selected {selectedCity},{selectedState},{selectedCountry}
+  </h1>
+)}
+
     </>
   );
 }
